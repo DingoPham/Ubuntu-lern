@@ -1,0 +1,15 @@
+## Các lệnh cơ bản khi sử dụng trong Ubuntu
+
+sudo -s      #lệnh vào quyền super user tại thư mục hiện tại của user login
+sudo -i      #lệnh vào quyền super user như ở thư mục gốc của root
+
+sudo apt install <Phần mềm hoặc tool cần install> -y        #lệch install đối với các phần mềm hoặc tool
+
+sudo apt update         #cập nhật hệ thống
+sudo apt upgrade -y     #nâng cấp theo cập nhật
+
+apt remove <Phần mềm hoặc tool cần uninstall> -y       # uninstall: không xoá thư mục data
+apt purge <Phần mềm hoặc tool cần uninstall> -y        # uninstall: xoá hết toàn bộ các thư mục data
+
+ip address      #kiểm tra địa chỉ ip
+
