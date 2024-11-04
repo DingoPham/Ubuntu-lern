@@ -1,0 +1,5 @@
+﻿## Phần mềm neofetch
+
+sudo apt install neofetch -y #tải phần mềm
+
+neofetch #sử dụng phần mềm

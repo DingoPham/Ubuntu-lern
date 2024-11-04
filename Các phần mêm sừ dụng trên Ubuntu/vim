@@ -1,0 +1,5 @@
+﻿## Phần mềm vim
+
+sudo apt install vim -y #tải phần mềm
+
+vim #sử dụng phần mềm
