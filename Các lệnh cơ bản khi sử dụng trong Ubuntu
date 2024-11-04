@@ -8,6 +8,8 @@ sudo apt install <Phần mềm hoặc tool cần install> -y        #lệch inst
 sudo apt update         #cập nhật hệ thống
 sudo apt upgrade -y     #nâng cấp theo cập nhật
 
+cd    #truy cập vào folder hoặc khu vực nào đó
+
 apt remove <Phần mềm hoặc tool cần uninstall> -y       # uninstall: không xoá thư mục data
 apt purge <Phần mềm hoặc tool cần uninstall> -y        # uninstall: xoá hết toàn bộ các thư mục data
 
