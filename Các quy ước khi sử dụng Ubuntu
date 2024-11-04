@@ -1,0 +1,9 @@
+## Các quy ước khi sử dụng Ubuntu
+
+Dấu:
+
+#    Dùng để command và viết note
+;    Dùng để viết nhiều lệnh cùng lúc
+VD: 
+apt remove <Phần mềm hoặc tool cần uninstall> -y;
+apt purge <Phần mềm hoặc tool cần uninstall> -y;
