@@ -8,10 +8,48 @@ sudo apt install <Phần mềm hoặc tool cần install> -y        #lệch inst
 sudo apt update         #cập nhật hệ thống
 sudo apt upgrade -y     #nâng cấp theo cập nhật
 
+-----------------------------------
+
 cd    #truy cập vào folder hoặc khu vực nào đó
+
+-----------------------------------
 
 apt remove <Phần mềm hoặc tool cần uninstall> -y       # uninstall: không xoá thư mục data
 apt purge <Phần mềm hoặc tool cần uninstall> -y        # uninstall: xoá hết toàn bộ các thư mục data
 
+-----------------------------------
+
 ip address      #kiểm tra địa chỉ ip
 
+-----------------------------------
+
+mkdir <Tên folder cần tạo>    #tạo folder ở vị trí hiện tại
+mkdir /home/<Tên folder cần tạo>    #tạo folder ở vị trí chỉ định
+  VD: mkdir dingo
+      mkdir /home/dingo
+
+rm <folder cần xoá> -r          #folder cần xoá ở mục hiện tại
+rm /home/<folder cần xoá> -r    #đường dẫn folder cần xoá tại mục chỉ định
+
+-----------------------------------
+
+rm <Tên file cần xoá>    #xoá file tại mục ở vị trí hiện tại
+rm /home/dingo/<Tên file cần xoá>    #xoá file tại mục ở vị trí được chỉ định
+  VD: rm test.txt
+      rm /home/dingo/test.txt
+
+-----------------------------------
+
+ls                    #liệt kê toàn bộ các file và folder
+ls -a                 #liệt kê toàn bộ các file và folder ẩn
+
+ls -a | grep <Tên file hoặc folder>     #tìm 1 tên 1 file hoặc 1 folder trong ls
+  VD: ls -a | grep test.txt
+      ls -a | grep dingo
+
+-----------------------------------
+
+cat <Tên file>.txt                          #xem data của 1 file (thường là file txt)
+cat <Tên file>.txt | grep <Nội dung bất kì>      #tìm nội dung trong file
+  VD: cat file_1.txt
+      cat file_1.txt | grep 123
