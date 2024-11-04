@@ -6,16 +6,6 @@ vim     #xem chi tiết phần mềm
 
 -----------------------------------
 
-mkdir <Tên folder cần tạo>    #tạo folder ở vị trí hiện tại
-mkdir /home/<Tên folder cần tạo>    #tạo folder ở vị trí chỉ định
-  VD: mkdir dingo
-      mkdir /home/dingo
-
-rm <folder cần xoá> -r          #folder cần xoá ở mục hiện tại
-rm /home/<folder cần xoá> -r    #đường dẫn folder cần xoá tại mục chỉ định
-
------------------------------------
-
 vim ./<Tên file cần tạo>     #mở hoặc tạo file (nếu file chưa tồn tại) ở vị trí hiện tại
 vim /home/dingo/<Tên file cần tạo>    # mở hoặc tạo file (nếu file chưa tồn tại) ở vị trí chỉ định
   VD: 
@@ -26,13 +16,3 @@ i     #bấm i để thực hiện việc gõ văn bản
 
 :w     #lưu văn bản
 :q     #thoát khỏi chể độ soạn của vim
-
-rm <Tên file cần xoá>    #xoá file tại mục ở vị trí hiện tại
-rm /home/dingo/<Tên file cần xoá>    #xoá file tại mục ở vị trí được chỉ định
-  VD: rm test.txt
-      rm /home/dingo/test.txt
-
------------------------------------
-
-ls        #liệt kê toàn bộ các file và folder
-ls -a     #liệt kê toàn bộ các file và folder ẩn
